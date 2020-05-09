@@ -32,5 +32,5 @@ end
 
 def retrieve_last_element_from_array(array)
  array.last
- return array[-1]
+ return array.index_number[-1]
 end
